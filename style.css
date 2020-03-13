@@ -1,0 +1,154 @@
+html {background-image: url(images/background.png);
+			background-position: left;
+		  background-repeat: repeat-x;
+}
+
+body {width: 1040px;
+			height: 1325px;
+      margin-top: 150px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: auto;
+			background-color: #E5E1D7;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    width:auto;
+  }
+}
+
+header {background-color: #7E9796;
+				max-height: 125px;
+				width: 1040px;
+				position: absolute;
+				top: 0px;
+
+}
+
+.logo {position: fixed, left;
+			 margin-top: 15px;
+			 margin-left: 15px;
+}
+
+h1 {font-family: 'Acme',Verdana, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #FFFFFF;
+    font-style: normal;
+    line-height: 1.4em;
+    padding: 10px;
+		text-align: center;
+		display: inline;
+}
+
+nav {position: absolute;
+		 font-family: 'Chivo', Verdana, Arial, sans-serif;
+		 font-weight: normal;
+		 font-size: 16px;
+		 color: #1B467F;
+		 text-align: right;
+		 word-spacing: 4em;
+		 top: 75px;
+		 right: 30px;
+}
+
+a:link {text-decoration: none;
+        color: #1B467F;
+}
+
+a:visited {text-decoration: none;
+         color: #990000;
+}
+
+a:hover {text-decoration: none;
+         color: #666666;
+}
+
+
+#biography {font-family: 'Acme', Verdana, Arial, sans-serif;
+						font-weight: bold;
+						font-size: 24px;
+						color: #990000;
+						letter-spacing: 0.05em;
+						text-align: left;
+					  padding: 10px;
+}
+
+.biography {font-family: 'Chivo', Verdana, Arial, sans-serif;
+						font-weight: normal;
+						font-size: 16px;
+						color: #000000;
+						text-align: left;
+						padding: 10px;
+}
+
+#gallery {font-family: 'Acme', Verdana, Arial, sans-serif;
+					font-weight: bold;
+					font-size: 24px;
+					color: #990000;
+					letter-spacing: 0.05em;
+					text-align: left;
+					margin-top: 50px;
+					padding: 10px;
+}
+
+#flex-container1 {display: flex;
+							 	 float: left;
+								 align-items: flex-start;
+								 align-content: space-between;
+							 	 width: 900px;
+							 	 height: 500px;
+}
+
+#bioSite-prototype, #bioSite-image, #web231 {width: 300px;
+							 															 height: 250px;
+																						 padding: 20px;
+																						 font-family: 'Chivo', Verdana, Arial, sans-serif;
+																						 font-weight: normal;
+																						 font-size: 16px;
+																						 color: #000000;
+																						 text-align: left;
+}
+
+.bioPrototype, .bioSite, .web231 {width: 300px;
+							 									  height: 250px;
+}
+
+#flex-container2 {display: flex;
+							 	  float: left;
+								  align-items: flex-start;
+								  align-content: space-between;
+							 	  width: 900px;
+							 	  height: 500px;
+}
+
+#portfolio-prototype, #web330 {width: 300px;
+				 											 height: 250px;
+				 											 padding: 20px;
+															 font-family: 'Chivo', Verdana, Arial, sans-serif;
+															 font-weight: normal;
+															 font-size: 16px;
+															 color: #000000;
+															 text-align: left;
+}
+
+.portfolioPrototype, .web330 {width: 300px;
+				 						 					height: 250px;
+}
+
+footer {background-color: #7E9796;
+				height: 100px;
+				width: 1040px;
+				position: absolute;
+				top: 1500px;
+				bottom: 0px;
+
+}
+
+#contact, #copyright {font-family: 'Chivo', Verdana, Arial, sans-serif;
+		 									font-weight: normal;
+		 									font-size: 16px;
+		 									color: #FFFFFF;
+		 									text-align: center;
+}
