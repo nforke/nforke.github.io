@@ -136,6 +136,7 @@ a:hover {color: #666666;
 
 .portfolioPrototype, .web330 {width: 300px;
 				 						 					height: 250px;
+															box-shadow: 5px 5px 5px #777777;
 }
 
 footer {background-color: #7E9796;
