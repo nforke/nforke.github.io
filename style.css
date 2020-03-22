@@ -7,7 +7,7 @@ html {background-image: url(images/background.png);
 /* body style and media */
 body {width: 1040px;
 			height: 1325px;
-      margin-top: 150px;
+      margin-top: 135px;
 			margin-right: auto;
 			margin-left: auto;
 			margin-bottom: auto;
@@ -22,14 +22,15 @@ body {width: 1040px;
 
 /* header, h1, nav, links */
 header {background-color: #7E9796;
-				max-height: 125px;
+				height: 125px;
 				width: 1040px;
 				position: absolute;
 				top: 0px;
 
 }
 
-.logo {position: fixed;
+.logo {position: absolute;
+			 max-height: 100px;
 			 margin-top: 15px;
 			 margin-left: 15px;
 }
@@ -40,9 +41,9 @@ h1 {font-family: 'Acme',Verdana, Arial, sans-serif;
     color: #FFFFFF;
     font-style: normal;
     line-height: 1.4em;
-    padding: 10px;
-		text-align: center;
-		display: inline;
+    padding-left: 175px;
+
+
 }
 
 nav {position: absolute;
@@ -52,7 +53,7 @@ nav {position: absolute;
 		 color: #1B467F;
 		 text-align: right;
 		 word-spacing: 4em;
-		 top: 75px;
+		 top: 100px;
 		 right: 30px;
 }
 
@@ -75,7 +76,7 @@ a:hover {color: #666666;
 						color: #990000;
 						letter-spacing: 0.05em;
 						text-align: left;
-					  padding: 10px;
+					  padding: 20px 10px 10px 10px;
 }
 
 .biography {font-family: 'Chivo', Verdana, Arial, sans-serif;
@@ -147,10 +148,10 @@ a:hover {color: #666666;
 
 /* footer style and copyright */
 footer {background-color: #7E9796;
-				height: 100px;
+				height: 125px;
 				width: 1040px;
 				position: absolute;
-				top: 1500px;
+				top: 1470px;
 				bottom: 0px;
 
 }
@@ -160,4 +161,3 @@ footer {background-color: #7E9796;
 		 									font-size: 16px;
 		 									color: #FFFFFF;
 		 									text-align: center;
-}
