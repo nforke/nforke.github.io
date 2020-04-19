@@ -5,7 +5,7 @@ html {background-image: url(images/background.png);
 }
 
 /* body style and media */
-body {width: 1040px;
+body {max-width: 1040px;
 			height: 1325px;
       margin-top: 135px;
 			margin-right: auto;
@@ -107,6 +107,7 @@ a:hover {color: #666666;
 							 	 height: 500px;
 }
 
+/* text styling */
 #bioSite-prototype, #bioSite-image, #web231 {width: 300px;
 							 															 height: 250px;
 																						 padding: 20px;
@@ -117,6 +118,7 @@ a:hover {color: #666666;
 																						 text-align: left;
 }
 
+/* image styling */
 .bioPrototype, .bioSite, .web231 {width: 300px;
 							 									  height: 250px;
 																	box-shadow: 5px 5px 5px #777777;
@@ -131,7 +133,8 @@ a:hover {color: #666666;
 							 	  height: 500px;
 }
 
-#portfolio-prototype, #web330 {width: 300px;
+/* text styling */
+#portfolio-prototype, #web330, #wizard-trivia {width: 300px;
 				 											 height: 250px;
 				 											 padding: 20px;
 															 font-family: 'Chivo', Verdana, Arial, sans-serif;
@@ -141,7 +144,8 @@ a:hover {color: #666666;
 															 text-align: left;
 }
 
-.portfolioPrototype, .web330 {width: 300px;
+/* image styling */
+.portfolioPrototype, .web330, .wizard-trivia {width: 300px;
 				 						 					height: 250px;
 															box-shadow: 5px 5px 5px #777777;
 }
