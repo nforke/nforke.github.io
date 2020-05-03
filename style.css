@@ -1,17 +1,19 @@
 /* html background style */
-html {background-image: url(images/background.png);
-			background-position: left;
-		  background-repeat: repeat-x;
+html {
+	background-image: url(images/background.png);
+	background-position: left;
+	background-repeat: repeat-x;
 }
 
 /* body style and media */
-body {max-width: 1040px;
-			height: 1325px;
-      margin-top: 135px;
-			margin-right: auto;
-			margin-left: auto;
-			margin-bottom: auto;
-			background-color: #E5E1D7;
+body {
+	max-width: 1040px;
+	height: 1325px;
+    margin-top: 135px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	background-color: #E5E1D7;
 }
 
 @media screen and (max-width: 1000px) {
@@ -21,147 +23,169 @@ body {max-width: 1040px;
 }
 
 /* header, h1, nav, links */
-header {background-color: #7E9796;
-				height: 125px;
-				width: 1040px;
-				position: absolute;
-				top: 0px;
+header {
+	background-color: #7E9796;
+	height: 125px;
+	width: 1040px;
+	position: absolute;
+	top: 0px;
 
 }
 
-.logo {position: absolute;
-			 max-height: 100px;
-			 margin-top: 15px;
-			 margin-left: 15px;
+.logo {
+	position: absolute;
+	max-height: 100px;
+	margin-top: 15px;
+	margin-left: 15px;
 }
 
-h1 {font-family: 'Acme',Verdana, Arial, sans-serif;
+h1 {
+	font-family: 'Acme',Verdana, Arial, sans-serif;
     font-weight: bold;
     font-size: 48px;
     color: #FFFFFF;
     font-style: normal;
     line-height: 1.4em;
     padding-left: 175px;
-
-
 }
 
-nav {position: absolute;
-		 font-family: 'Chivo', Verdana, Arial, sans-serif;
-		 font-weight: normal;
-		 font-size: 16px;
-		 color: #1B467F;
-		 text-align: right;
-		 word-spacing: 4em;
-		 top: 100px;
-		 right: 30px;
+nav {
+	position: absolute;
+	font-family: 'Chivo', Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #1B467F;
+	text-align: right;
+	word-spacing: 4em;
+	top: 100px;
+	right: 30px;
 }
 
-a:link {color: #1B467F;
-				text-decoration: none;
+a:link {
+	color: #1B467F;
+	text-decoration: none;
 }
 
-a:visited {color: #990000;
-					 text-decoration: none;
+a:visited {
+	color: #990000;
+	text-decoration: none;
 }
 
-a:hover {color: #666666;
-				 text-decoration: underline;
+a:hover {
+	color: #666666;
+	text-decoration: underline;
 }
 
 /* biography section */
-#biography {font-family: 'Acme', Verdana, Arial, sans-serif;
-						font-weight: bold;
-						font-size: 24px;
-						color: #990000;
-						letter-spacing: 0.05em;
-						text-align: left;
-					  padding: 20px 10px 10px 10px;
+#biography, #presentations {
+	font-family: 'Acme', Verdana, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #990000;
+	letter-spacing: 0.05em;
+	text-align: left;
+	padding: 20px 10px 10px 10px;
 }
 
-.biography {font-family: 'Chivo', Verdana, Arial, sans-serif;
-						font-weight: normal;
-						font-size: 16px;
-						color: #000000;
-						text-align: left;
-						padding: 10px;
+.biography, .rest {
+	font-family: 'Chivo', Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+	padding: 10px;
 }
 
 /* gallery section with images */
-#gallery {font-family: 'Acme', Verdana, Arial, sans-serif;
-					font-weight: bold;
-					font-size: 24px;
-					color: #990000;
-					letter-spacing: 0.05em;
-					text-align: left;
-					margin-top: 50px;
-					padding: 10px;
+#gallery {
+	font-family: 'Acme', Verdana, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #990000;
+	letter-spacing: 0.05em;
+	text-align: left;
+	margin-top: 50px;
+	padding: 10px;
 }
 
 /* first row of images in gallery */
-#flex-container1 {display: flex;
-							 	 float: left;
-								 align-items: flex-start;
-								 align-content: space-between;
-							 	 width: 900px;
-							 	 height: 500px;
+#flex-container1 {
+	display: flex;
+	float: left;
+	align-items: flex-start;
+	align-content: space-between;
+	width: 900px;
+	height: 500px;
 }
 
 /* text styling */
-#bioSite-prototype, #bioSite-image, #web231 {width: 300px;
-							 															 height: 250px;
-																						 padding: 20px;
-																						 font-family: 'Chivo', Verdana, Arial, sans-serif;
-																						 font-weight: normal;
-																						 font-size: 16px;
-																						 color: #000000;
-																						 text-align: left;
+#bioSite-prototype, #bioSite-image, #web231 {
+	width: 300px;
+	height: 250px;
+	padding: 20px;
+	font-family: 'Chivo', Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
 }
 
 /* image styling */
-.bioPrototype, .bioSite, .web231 {width: 300px;
-							 									  height: 250px;
-																	box-shadow: 5px 5px 5px #777777;
+.bioPrototype, .bioSite, .web231 {
+	width: 300px;
+	height: 250px;
+	box-shadow: 5px 5px 5px #777777;
 }
 
 /* second row of images in gallery */
-#flex-container2 {display: flex;
-							 	  float: left;
-								  align-items: flex-start;
-								  align-content: space-between;
-							 	  width: 900px;
-							 	  height: 500px;
+#flex-container2 {
+	display: flex;
+	float: left;
+	align-items: flex-start;
+	align-content: space-between;
+	width: 900px;
+	height: 500px;
 }
 
 /* text styling */
-#portfolio-prototype, #web330, #wizard-trivia {width: 300px;
-				 											 height: 250px;
-				 											 padding: 20px;
-															 font-family: 'Chivo', Verdana, Arial, sans-serif;
-															 font-weight: normal;
-															 font-size: 16px;
-															 color: #000000;
-															 text-align: left;
+#portfolio-prototype, #web330, #wizard-trivia {
+	width: 300px;
+	height: 250px;
+	padding: 20px;
+	font-family: 'Chivo', Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
 }
 
 /* image styling */
-.portfolioPrototype, .web330, .wizard-trivia {width: 300px;
-				 						 					height: 250px;
-															box-shadow: 5px 5px 5px #777777;
+.portfolioPrototype, .web330, .wizard-trivia {
+	width: 300px;
+	height: 250px;
+	box-shadow: 5px 5px 5px #777777;
+}
+
+.card {
+	align-items: flex-start;
+	padding: 20px;
 }
 
 /* footer style and copyright */
-footer {background-color: #7E9796;
-				height: 125px;
-				width: 1040px;
-				position: absolute;
-				top: 1470px;
-				bottom: 0px;
+footer {
+	background-color: #7E9796;
+	height: 125px;
+	width: 1040px;
+	position: absolute;
+	top: 1470px;
+	bottom: 0px;
 
 }
 
-#contact, #copyright {font-family: 'Chivo', Verdana, Arial, sans-serif;
-		 									font-weight: normal;
-		 									font-size: 16px;
-		 									color: #FFFFFF;
-		 									text-align: center;
+#contact, #copyright {
+	font-family: 'Chivo', Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+}
