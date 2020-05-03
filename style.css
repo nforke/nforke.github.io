@@ -77,7 +77,7 @@ a:hover {
 }
 
 /* biography section */
-#biography, #presentations {
+#biography, #presentations, #diagrams {
 	font-family: 'Acme', Verdana, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 24px;
@@ -87,7 +87,7 @@ a:hover {
 	padding: 20px 10px 10px 10px;
 }
 
-.biography, .rest {
+.biography, .rest, .diagram {
 	font-family: 'Chivo', Verdana, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 16px;
@@ -138,7 +138,7 @@ a:hover {
 }
 
 /* second row of images in gallery */
-#flex-container2 {
+#flex-container2, #flex-container3, #flex-container4 {
 	display: flex;
 	float: left;
 	align-items: flex-start;
@@ -148,7 +148,7 @@ a:hover {
 }
 
 /* text styling */
-#portfolio-prototype, #web330, #wizard-trivia {
+#portfolio-prototype, #web330, #wizard-trivia, #NoSQL, #ord {
 	width: 300px;
 	height: 250px;
 	padding: 20px;
@@ -160,15 +160,20 @@ a:hover {
 }
 
 /* image styling */
-.portfolioPrototype, .web330, .wizard-trivia {
+.portfolioPrototype, .web330, .wizard-trivia, .NoSQL, .ord {
 	width: 300px;
 	height: 250px;
 	box-shadow: 5px 5px 5px #777777;
 }
 
+/* video styling */
 .card {
 	align-items: flex-start;
 	padding: 20px;
+}
+
+.NoSQL:hover, .ord:hover {
+	border: 1px solid #FFFFFF
 }
 
 /* footer style and copyright */
