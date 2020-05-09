@@ -137,8 +137,8 @@ a:hover {
 	box-shadow: 5px 5px 5px #777777;
 }
 
-/* second row of images in gallery */
-#flex-container2, #flex-container3, #flex-container4 {
+/* second row of images in gallery & all images in diagrams */
+#flex-container2, #flex-container3, #flex-container4, #flex-container5 {
 	display: flex;
 	float: left;
 	align-items: flex-start;
@@ -148,7 +148,7 @@ a:hover {
 }
 
 /* text styling */
-#portfolio-prototype, #web330, #wizard-trivia, #NoSQL, #ord {
+#portfolio-prototype, #web330, #wizard-trivia, #NoSQL, #ord, #ShopperOrd, #ShopperNoSQL, #TechOrd, #TechNoSQL {
 	width: 300px;
 	height: 250px;
 	padding: 20px;
@@ -160,7 +160,7 @@ a:hover {
 }
 
 /* image styling */
-.portfolioPrototype, .web330, .wizard-trivia, .NoSQL, .ord {
+.portfolioPrototype, .web330, .wizard-trivia, .NoSQL, .ord, .ShopperOrd, .ShopperNoSQL, .TechOrd, .TechNoSQL {
 	width: 300px;
 	height: 250px;
 	box-shadow: 5px 5px 5px #777777;
