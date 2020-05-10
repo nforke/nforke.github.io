@@ -138,7 +138,7 @@ a:hover {
 }
 
 /* second row of images in gallery & all images in diagrams */
-#flex-container2, #flex-container3, #flex-container4, #flex-container5 {
+#flex-container2, #flex-container3, #flex-container4, #flex-container5, #flex-container6 {
 	display: flex;
 	float: left;
 	align-items: flex-start;
