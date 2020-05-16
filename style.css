@@ -8,8 +8,8 @@ html {
 /* body style and media */
 body {
 	max-width: 1040px;
-	height: 1325px;
-    margin-top: 135px;
+	height: 2355px;
+  margin-top: 135px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: auto;
@@ -138,7 +138,7 @@ a:hover {
 }
 
 /* second row of images in gallery & all images in diagrams */
-#flex-container2, #flex-container3, #flex-container4, #flex-container5, #flex-container6, #flex-container7 {
+#flex-container2, #flex-container3, #flex-container4, #flex-container5, #flex-container6, #flex-container7, #flex-container8, #flex-container9 {
 	display: flex;
 	float: left;
 	align-items: flex-start;
@@ -148,7 +148,8 @@ a:hover {
 }
 
 /* text styling */
-#portfolio-prototype, #web330, #wizard-trivia, #NoSQL, #ord, #ShopperOrd, #ShopperNoSQL, #TechOrd, #TechNoSQL {
+#portfolio-prototype, #web330, #wizard-trivia, #NoSQL, #ord, #ShopperOrd, #ShopperNoSQL, #TechOrd, #TechNoSQL, #NodeBookCoNormalized,
+#NodeBookCoNoSQLDoc, #NodeBookCoNoSQL, #NodeSecurityOrd, #NodeSecurityNoSQL {
 	width: 300px;
 	height: 250px;
 	padding: 20px;
@@ -160,7 +161,8 @@ a:hover {
 }
 
 /* image styling */
-.portfolioPrototype, .web330, .wizard-trivia, .NoSQL, .ord, .ShopperOrd, .ShopperNoSQL, .TechOrd, .TechNoSQL {
+.portfolioPrototype, .web330, .wizard-trivia, .NoSQL, .ord, .ShopperOrd, .ShopperNoSQL, .TechOrd, .TechNoSQL,
+.NodeBookCoNormalized, .NodeBookCoNoSQLDoc, .NodeBookCoNoSQL, .NodeSecurityOrd, .NodeSecurityNoSQL {
 	width: 300px;
 	height: 250px;
 	box-shadow: 5px 5px 5px #777777;
@@ -182,7 +184,7 @@ footer {
 	height: 125px;
 	width: 1040px;
 	position: absolute;
-	top: 1470px;
+	top: 2500px;
 	bottom: 0px;
 
 }
