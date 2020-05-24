@@ -53,7 +53,7 @@ nav {
 	position: absolute;
 	font-family: 'Chivo', Verdana, Arial, sans-serif;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 14px;
 	color: #FFFFFF;
 	text-align: right;
 	word-spacing: 0.5em;
@@ -87,7 +87,7 @@ a:hover {
 	padding: 20px 10px 10px 10px;
 }
 
-.biography, .rest, .diagram, .soap {
+.biography, .rest, .diagram, .soap, .json {
 	font-family: 'Chivo', Verdana, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 16px;
@@ -138,7 +138,8 @@ a:hover {
 }
 
 /* second row of images in gallery & all images in diagrams */
-#flex-container2, #flex-container3, #flex-container4, #flex-container5, #flex-container6, #flex-container7, #flex-container8, #flex-container9 {
+#flex-container2, #flex-container3, #flex-container4, #flex-container5, #flex-container6, #flex-container7, #flex-container8,
+#flex-container9, #flex-container10 {
 	display: flex;
 	float: left;
 	align-items: flex-start;
