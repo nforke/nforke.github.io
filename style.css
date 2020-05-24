@@ -3,6 +3,7 @@ html {
 	background-image: url(images/background.png);
 	background-position: left;
 	background-repeat: repeat-x;
+	background-size: cover;
 }
 
 /* body style and media */
