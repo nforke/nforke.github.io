@@ -10,7 +10,7 @@ html {
 body {
 	max-width: 1040px;
 	height: 2355px;
-  margin-top: 135px;
+  margin-top: 150px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: auto;
@@ -26,7 +26,7 @@ body {
 /* header, h1, nav, links */
 header {
 	background-color: #7E9796;
-	height: 125px;
+	height: 150px;
 	width: 1040px;
 	position: absolute;
 	top: 0px;
@@ -52,6 +52,7 @@ h1 {
 
 nav {
 	position: absolute;
+	margin-top: 25px;
 	font-family: 'Chivo', Verdana, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 14px;
@@ -88,7 +89,8 @@ a:hover {
 	padding: 20px 10px 10px 10px;
 }
 
-.biography, .rest, .diagram, .soap, .json, .hypermedia, .soa, .microservices {
+/* text styling for above presentations */
+.biography, .rest, .diagram, .soap1, .json, .hypermedia, .soa, .microservices, .oauth {
 	font-family: 'Chivo', Verdana, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 16px;
@@ -109,8 +111,9 @@ a:hover {
 	padding: 10px;
 }
 
-/* first row of images in gallery */
-#flex-container1 {
+/* first & second row of images in gallery & all images in diagrams */
+#flex-container1, #flex-container2, #flex-container3, #flex-container4, #flex-container5, #flex-container6, #flex-container7, #flex-container8,
+#flex-container9, #flex-container10, #flex-container11, #flex-container12, #flex-container13, #flex-container14, #flex-container15 {
 	display: flex;
 	float: left;
 	align-items: flex-start;
@@ -120,7 +123,8 @@ a:hover {
 }
 
 /* text styling */
-#bioSite-prototype, #bioSite-image, #web231 {
+#bioSite-prototype, #bioSite-image, #web231, #portfolio-prototype, #web330, #wizard-trivia, #NoSQL, #ord, #ShopperOrd, #ShopperNoSQL, #TechOrd, #TechNoSQL, #NodeBookCoNormalized,
+#NodeBookCoNoSQLDoc, #NodeBookCoNoSQL, #NodeSecurityOrd, #NodeSecurityNoSQL, #soap1, #gateway {
 	width: 300px;
 	height: 250px;
 	padding: 20px;
@@ -132,39 +136,8 @@ a:hover {
 }
 
 /* image styling */
-.bioPrototype, .bioSite, .web231 {
-	width: 300px;
-	height: 250px;
-	box-shadow: 5px 5px 5px #777777;
-}
-
-/* second row of images in gallery & all images in diagrams */
-#flex-container2, #flex-container3, #flex-container4, #flex-container5, #flex-container6, #flex-container7, #flex-container8,
-#flex-container9, #flex-container10, #flex-container11, #flex-container12, #flex-container13 {
-	display: flex;
-	float: left;
-	align-items: flex-start;
-	align-content: space-between;
-	width: 900px;
-	height: 500px;
-}
-
-/* text styling */
-#portfolio-prototype, #web330, #wizard-trivia, #NoSQL, #ord, #ShopperOrd, #ShopperNoSQL, #TechOrd, #TechNoSQL, #NodeBookCoNormalized,
-#NodeBookCoNoSQLDoc, #NodeBookCoNoSQL, #NodeSecurityOrd, #NodeSecurityNoSQL {
-	width: 300px;
-	height: 250px;
-	padding: 20px;
-	font-family: 'Chivo', Verdana, Arial, sans-serif;
-	font-weight: normal;
-	font-size: 16px;
-	color: #000000;
-	text-align: left;
-}
-
-/* image styling */
-.portfolioPrototype, .web330, .wizard-trivia, .NoSQL, .ord, .ShopperOrd, .ShopperNoSQL, .TechOrd, .TechNoSQL,
-.NodeBookCoNormalized, .NodeBookCoNoSQLDoc, .NodeBookCoNoSQL, .NodeSecurityOrd, .NodeSecurityNoSQL {
+.bioPrototype, .bioSite, .web231, .portfolioPrototype, .web330, .wizard-trivia, .NoSQL, .ord, .ShopperOrd, .ShopperNoSQL, .TechOrd, .TechNoSQL,
+.NodeBookCoNormalized, .NodeBookCoNoSQLDoc, .NodeBookCoNoSQL, .NodeSecurityOrd, .NodeSecurityNoSQL, .soap, .gateway {
 	width: 300px;
 	height: 250px;
 	box-shadow: 5px 5px 5px #777777;
@@ -176,14 +149,14 @@ a:hover {
 	padding: 20px;
 }
 
-.NoSQL:hover, .ord:hover, .bioPrototype:hover, .bioSite:hover, .web231:hover, .portfolioPrototype:hover, .web330:hover, .wizard-trivia:hover {
+.NoSQL:hover, .ord:hover, .bioPrototype:hover, .bioSite:hover, .web231:hover, .portfolioPrototype:hover, .web330:hover, .wizard-trivia:hover, .gateway:hover {
 	border: 1px solid #FFFFFF
 }
 
 /* footer style and copyright */
 footer {
 	background-color: #7E9796;
-	height: 125px;
+	height: 150px;
 	width: 1040px;
 	position: absolute;
 	top: 2500px;
