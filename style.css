@@ -8,7 +8,7 @@ html {
 
 /* body style and media */
 body {
-	max-width: 1040px;
+	max-width: 1060px;
 	height: 2355px;
   margin-top: 150px;
 	margin-right: auto;
@@ -27,7 +27,7 @@ body {
 header {
 	background-color: #7E9796;
 	height: 150px;
-	width: 1040px;
+	width: 1060px;
 	position: absolute;
 	top: 0px;
 
@@ -53,6 +53,7 @@ h1 {
 nav {
 	position: absolute;
 	margin-top: 25px;
+	padding: 20%;
 	font-family: 'Chivo', Verdana, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 14px;
