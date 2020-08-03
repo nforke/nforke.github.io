@@ -125,7 +125,7 @@ a:hover {
 
 /* text styling */
 #bioSite-prototype, #bioSite-image, #web231, #portfolio-prototype, #web330, #wizard-trivia, #NoSQL, #ord, #ShopperOrd, #ShopperNoSQL, #TechOrd, #TechNoSQL, #NodeBookCoNormalized,
-#NodeBookCoNoSQLDoc, #NodeBookCoNoSQL, #NodeSecurityOrd, #NodeSecurityNoSQL, #soap1, #gateway {
+#NodeBookCoNoSQLDoc, #NodeBookCoNoSQL, #NodeSecurityOrd, #NodeSecurityNoSQL, #soap1, #gateway, #composer {
 	width: 300px;
 	height: 250px;
 	padding: 20px;
@@ -138,7 +138,7 @@ a:hover {
 
 /* image styling */
 .bioPrototype, .bioSite, .web231, .portfolioPrototype, .web330, .wizard-trivia, .NoSQL, .ord, .ShopperOrd, .ShopperNoSQL, .TechOrd, .TechNoSQL,
-.NodeBookCoNormalized, .NodeBookCoNoSQLDoc, .NodeBookCoNoSQL, .NodeSecurityOrd, .NodeSecurityNoSQL, .soap, .gateway {
+.NodeBookCoNormalized, .NodeBookCoNoSQLDoc, .NodeBookCoNoSQL, .NodeSecurityOrd, .NodeSecurityNoSQL, .soap, .gateway, .composer {
 	width: 300px;
 	height: 250px;
 	box-shadow: 5px 5px 5px #777777;
@@ -150,7 +150,7 @@ a:hover {
 	padding: 20px;
 }
 
-.NoSQL:hover, .ord:hover, .bioPrototype:hover, .bioSite:hover, .web231:hover, .portfolioPrototype:hover, .web330:hover, .wizard-trivia:hover, .gateway:hover {
+.NoSQL:hover, .ord:hover, .bioPrototype:hover, .bioSite:hover, .web231:hover, .portfolioPrototype:hover, .web330:hover, .wizard-trivia:hover, .gateway:hover, .composer:hover {
 	border: 1px solid #FFFFFF
 }
 
