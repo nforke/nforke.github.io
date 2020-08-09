@@ -147,7 +147,7 @@ a:hover {
 /* video styling */
 .card {
 	align-items: flex-start;
-	padding: 0px;
+	padding: 20px;
 }
 
 .NoSQL:hover, .ord:hover, .bioPrototype:hover, .bioSite:hover, .web231:hover, .portfolioPrototype:hover, .web330:hover, .wizard-trivia:hover, .gateway:hover, .composer:hover {
