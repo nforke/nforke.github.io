@@ -148,7 +148,6 @@ a:hover {
 .card {
 	align-items: flex-start;
 	padding: 20px;
-	align-content: center;
 }
 
 .NoSQL:hover, .ord:hover, .bioPrototype:hover, .bioSite:hover, .web231:hover, .portfolioPrototype:hover, .web330:hover, .wizard-trivia:hover, .gateway:hover, .composer:hover {
