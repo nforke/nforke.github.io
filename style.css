@@ -9,7 +9,7 @@ html {
 /* body style and media */
 body {
 	max-width: 1040px;
-	height: 2355px;
+	height: 2400px;
   margin-top: 150px;
 	margin-right: auto;
 	margin-left: auto;
@@ -147,7 +147,7 @@ a:hover {
 /* video styling */
 .card {
 	align-items: flex-start;
-	padding: 20px;
+	padding: 10px;
 }
 
 .NoSQL:hover, .ord:hover, .bioPrototype:hover, .bioSite:hover, .web231:hover, .portfolioPrototype:hover, .web330:hover, .wizard-trivia:hover, .gateway:hover, .composer:hover {
