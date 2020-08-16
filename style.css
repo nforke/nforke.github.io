@@ -159,8 +159,8 @@ footer {
 	background-color: #7E9796;
 	height: 150px;
 	width: 1040px;
-	position: bottom;
-	top: 4000px;
+	position: fixed;
+	top: 3500px;
 	bottom: 0px;
 
 }
