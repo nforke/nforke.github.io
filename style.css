@@ -159,8 +159,9 @@ footer {
 	background-color: #7E9796;
 	height: 150px;
 	width: 1040px;
-	position: absolute;
-
+	position: relative;
+	top: 3000px;
+	bottom: 0px;
 
 }
 
