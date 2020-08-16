@@ -155,7 +155,7 @@ a:hover {
 }
 
 /* footer style and copyright */
-footer {
+.footer, .push {
 	background-color: #7E9796;
 	height: 150px;
 	width: 1040px;
