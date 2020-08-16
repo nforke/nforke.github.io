@@ -9,7 +9,7 @@ html {
 /* body style and media */
 body {
 	max-width: 1040px;
-	height: 10000px;
+	height: 4000px;
   margin-top: 150px;
 	margin-right: auto;
 	margin-left: auto;
@@ -160,7 +160,6 @@ footer {
 	height: 150px;
 	width: 1040px;
 	position: bottom;
-	top: 2000px;
 	bottom: 0px;
 
 }
