@@ -125,7 +125,7 @@ a:hover {
 
 /* text styling */
 #bioSite-prototype, #bioSite-image, #web231, #portfolio-prototype, #web330, #wizard-trivia, #NoSQL, #ord, #ShopperOrd, #ShopperNoSQL, #TechOrd, #TechNoSQL, #NodeBookCoNormalized,
-#NodeBookCoNoSQLDoc, #NodeBookCoNoSQL, #NodeSecurityOrd, #NodeSecurityNoSQL, #soap1, #gateway, #composer {
+#NodeBookCoNoSQLDoc, #NodeBookCoNoSQL, #NodeSecurityOrd, #NodeSecurityNoSQL, #soap1, #gateway, #composer, #gpa {
 	width: 300px;
 	height: 250px;
 	padding: 20px;
@@ -138,7 +138,7 @@ a:hover {
 
 /* image styling */
 .bioPrototype, .bioSite, .web231, .portfolioPrototype, .web330, .wizard-trivia, .NoSQL, .ord, .ShopperOrd, .ShopperNoSQL, .TechOrd, .TechNoSQL,
-.NodeBookCoNormalized, .NodeBookCoNoSQLDoc, .NodeBookCoNoSQL, .NodeSecurityOrd, .NodeSecurityNoSQL, .soap, .gateway, .composer {
+.NodeBookCoNormalized, .NodeBookCoNoSQLDoc, .NodeBookCoNoSQL, .NodeSecurityOrd, .NodeSecurityNoSQL, .soap, .gateway, .composer, .gpa {
 	width: 300px;
 	height: 250px;
 	box-shadow: 5px 5px 5px #777777;
