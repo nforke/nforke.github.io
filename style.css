@@ -2,14 +2,13 @@
 html {
 	background-image: url(images/background.png);
 	background-position: left;
-
 	background-size: cover;
 }
 
 /* body style and media */
 body {
 	max-width: 1040px;
-	height: 4500px;
+	height: 4250px;
   margin-top: 150px;
 	margin-right: auto;
 	margin-left: auto;
@@ -17,7 +16,7 @@ body {
 	background-color: #E5E1D7;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1040px) {
   body {
     width:auto;
   }
