@@ -8,7 +8,7 @@ html {
 /* body style and media */
 body {
 	max-width: 1040px;
-	height: 4250px;
+	height: 4350px;
   margin-top: 150px;
 	margin-right: auto;
 	margin-left: auto;
@@ -113,7 +113,7 @@ a:hover {
 /* first & second row of images in gallery & all images in diagrams */
 #flex-container1, #flex-container2, #flex-container3, #flex-container4, #flex-container5, #flex-container6, #flex-container7, #flex-container8,
 #flex-container9, #flex-container10, #flex-container11, #flex-container12, #flex-container13, #flex-container14, #flex-container15, #flex-container16, #flex-container17,
-#flex-container18, #flex-container19, #flex-container20, #flex-container21, #flex-container22, #flex-container23, #flex-container24 {
+#flex-container18, #flex-container19, #flex-container20, #flex-container21, #flex-container22, #flex-container23, #flex-container24, #flex-container25 {
 	display: flex;
 	float: left;
 	align-items: flex-start;
@@ -160,7 +160,7 @@ footer {
 	height: 150px;
 	width: 1040px;
 	position: bottom;
-	margin-top: 4000px;
+	margin-top: 4500px;
 	bottom: 0px;
 
 }
