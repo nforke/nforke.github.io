@@ -114,7 +114,7 @@ a:hover {
 /* first & second row of images in gallery & all images in diagrams */
 #flex-container1, #flex-container2, #flex-container3, #flex-container4, #flex-container5, #flex-container6, #flex-container7, #flex-container8,
 #flex-container9, #flex-container10, #flex-container11, #flex-container12, #flex-container13, #flex-container14, #flex-container15, #flex-container16, #flex-container17,
-#flex-container18, #flex-container19, #flex-container20, #flex-container21, #flex-container22, #flex-container23, #flex-container24, #flex-container25 {
+#flex-container18, #flex-container19, #flex-container20, #flex-container21, #flex-container22, #flex-container23, #flex-container24, #flex-container25, #flex-container26 {
 	display: flex;
 	float: left;
 	align-items: flex-start;
@@ -125,7 +125,7 @@ a:hover {
 
 /* text styling */
 #bioSite-prototype, #bioSite-image, #web231, #portfolio-prototype, #web330, #wizard-trivia, #NoSQL, #ord, #ShopperOrd, #ShopperNoSQL, #TechOrd, #TechNoSQL, #NodeBookCoNormalized,
-#NodeBookCoNoSQLDoc, #NodeBookCoNoSQL, #NodeSecurityOrd, #NodeSecurityNoSQL, #soap1, #gateway, #composer, #gpa, #books, #bobs, #nodebucket {
+#NodeBookCoNoSQLDoc, #NodeBookCoNoSQL, #NodeSecurityOrd, #NodeSecurityNoSQL, #soap1, #gateway, #composer, #gpa, #books, #bobs, #nodebucket, #bcrs {
 	width: 300px;
 	height: 250px;
 	padding: 20px;
@@ -139,7 +139,7 @@ a:hover {
 /* image styling */
 .bioPrototype, .bioSite, .web231, .portfolioPrototype, .web330, .wizard-trivia, .NoSQL, .ord, .ShopperOrd, .ShopperNoSQL, .TechOrd, .TechNoSQL,
 .NodeBookCoNormalized, .NodeBookCoNoSQLDoc, .NodeBookCoNoSQL, .NodeSecurityOrd, .NodeSecurityNoSQL, .soap, .gateway, .composer, .gpa, .books, .bobs,
-.node {
+.node, .bcrs {
 	width: 300px;
 	height: 250px;
 	box-shadow: 5px 5px 5px #777777;
