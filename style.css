@@ -52,8 +52,6 @@ h1 {
 nav {
 	position: absolute;
 	margin-top: 25px;
-	margin-bottom: auto;
-	margin-right: auto;
 	font-family: 'Chivo', Verdana, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 14px;
@@ -61,6 +59,7 @@ nav {
 	text-align: right;
 	word-spacing: 0.5em;
 	top: 100px;
+	right: 30px;
 }
 
 a:link {
