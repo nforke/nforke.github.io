@@ -50,7 +50,7 @@ h1 {
 }
 
 nav {
-	position: absolute;
+	position: center;
 	margin-top: 25px;
 	margin-left: 25px;
 	font-family: 'Chivo', Verdana, Arial, sans-serif;
